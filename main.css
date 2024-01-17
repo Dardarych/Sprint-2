@@ -84,7 +84,6 @@ header {
     flex-direction: column;
  }
 .user-profile {
-  width: 250px;
   display: flex;
   background-color: white;
   border-radius: 10px;
@@ -93,7 +92,7 @@ header {
 }
   
   .user-profile .profile-photo img {
-    width: 100%;
+    width: 120%;
     height: 333px;
     object-fit: cover;
   }
@@ -103,6 +102,7 @@ header {
     row-gap: 10px;
   }
   .edit-profile {
+    width: 120%;
     padding: 10px 20px;
     background-color: #e8eaed;
     color: #527da3;
@@ -250,10 +250,11 @@ header {
   display: block;
   border: 1px solid #ccc;
   margin-bottom: 20px;
-  padding: 15px;
+  padding: 20px;
   background-color: #fff;
   border-radius: 8px;
   font-family: Arial, sans-serif;
+  
   }
   
   .name-side {
@@ -304,11 +305,12 @@ header {
 }
 
 .request {
-  color: #527da3; 
+  color: #000000; 
   margin-bottom: 4px; 
 }
 .active{
-  background-color: hsl(240deg 81.93% 87.78%) ;
+  background-color: #ededfc ;
+  
 }
 .post-photo {
   width: -webkit-fill-available 
@@ -333,7 +335,6 @@ header {
 .friends-block-list {
   background-color: white;
   border-radius: 5px;
-  padding: 20px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
@@ -345,6 +346,8 @@ header {
 .header {
   display: flex;
   justify-content: space-between;
+  padding: 10px;
+  align-items: center;
 }
 .friends-block .search input,
 .friends-block .search button {
@@ -353,32 +356,38 @@ header {
 }
 
 .friend-list .friend {
+  padding: 0 40px;
   display: flex;
   align-items: center;
   margin-bottom: 10px;
 }
 
 .friend-list .friend img {
-  width: 50px; 
-  height: 50px;
+  width: 15%;
+  height: 15%;
   border-radius: 50%;
   margin-right: 10px;
 }
 
-.friend-list .friend .friend-info strong {
+.friend-info strong {
+  font: revert-layer;
   display: block;
-  color: #333;
+  color: #527da3;
 }
 
 .friend-list .friend .friend-info p {
   font-size: 0.8em;
   color: #666;
 }
-
+.friend-info a {
+  color: #527da3;
+  text-decoration: unset;
+}
 
 .head-part {
   display: flex;
   column-gap: 30px;
+  padding: 0 30px;
 }
 
 .search {
@@ -387,6 +396,9 @@ header {
 
 }
 .search input {
+  margin-bottom: 20px;
+  height: 30px;
+  padding: 10px;
   border: unset;
   border-top: 1px solid gray;
   border-bottom: 1px solid gray;
@@ -411,4 +423,29 @@ header {
 .possible-friends {
   background-color: white;
   border-radius: 10px;
+}
+
+.find-friends {
+  width: 100%;
+  padding: 6px 21px;
+  background-color: #527da3;
+  color: white;
+  border: unset;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  text-align: center;
+}
+
+.friend-bar span {
+  display: flex;
+  align-items: flex-end;
+  margin-block-start: 1px;
+  margin-block-end: 5px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.header {
+  background-color: whitesmoke;
 }
