@@ -1,0 +1,414 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #e8eaed;
+}
+h1,h2,h3,h4,h5,h6 {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+    background-color: #527da3;
+    padding: 10px 20px; 
+    
+}
+.header__container {
+    max-width: 1247px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+  }
+
+.right-side-sections {
+    margin-left: 35px;
+}
+.logo a{
+    text-decoration: none;
+    color: white;
+    font-size: 24px; 
+    font-weight: bold;
+}
+.space {
+  padding: 17px 0px;
+}
+.search-bar{
+	margin-right: auto;
+	margin-left: 100px;
+}
+.search-bar input {
+    padding: 5px;
+    width: 200px; 
+    border: none;
+    border-radius: 15px; 
+}
+.top-container {
+  display: flex;
+  max-width: 1293px;
+  margin: 0 auto;
+  column-gap: 20px;
+}
+
+.status-bar {
+    background-color: #e8eaed;
+}
+
+.status-bar ul {
+  max-width: 120%;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.status-bar li {
+    padding: 10px 20px; 
+    width: max-content;
+}
+
+.status-bar li a {
+    color: #527da3;
+    text-decoration: none;
+    display: block;
+}
+
+.left-side {
+  row-gap: 20px;
+    display: flex;
+    flex-direction: column;
+ }
+ .right-side {
+  row-gap: 20px;
+    display: flex;
+    flex-direction: column;
+ }
+.user-profile {
+  width: 250px;
+  display: flex;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  padding: 27px;
+}
+  
+  .user-profile .profile-photo img {
+    width: 100%;
+    height: 333px;
+    object-fit: cover;
+  }
+  .profile-photo {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+  }
+  .edit-profile {
+    padding: 10px 20px;
+    background-color: #e8eaed;
+    color: #527da3;
+    border: unset; 
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .profile-section {
+    border: 1px solid #d3d3d3;
+    border-radius: 10px;
+    padding: 20px;
+    width: auto; 
+    background-color: #fff;
+
+}
+  
+  .user-info h2 {
+    margin-top: 0;
+  }
+  
+  .status {
+    display: flex;
+    justify-content: flex-end;
+    color: #ced2d8; 
+    margin-right: 10px; 
+  }
+  
+  .profile-info p {
+    margin: 5px 0; 
+  }
+  
+  .profile-stats {
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px; 
+  }
+  
+  .profile-stats {
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap; 
+  }
+  
+  .profile-stats span {
+    background: #ffffff;
+    padding: 5px 10px;
+    border-radius: 4px;
+    margin: 5px; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+  }
+  
+  .number {
+    color: #527da3; 
+    margin-bottom: 4px; 
+  }
+  
+  .profile-stats span {
+    color: black; 
+  }
+
+
+  .friend-name {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 10px;
+  }
+  .friends-block {
+ 
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 10px;
+    background-color: white;
+  }
+  
+  .friend span{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #ffffff;
+    padding: 5px 10px;
+    border-radius: 4px;
+    margin: 5px; 
+  }
+  
+.friend {
+  display: flex;
+
+  align-items: center;
+  padding: 10px;
+  
+}
+  
+  .friend img {
+    width: 66px;
+    height: 65px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-bottom: inherit;
+  }
+
+  .conf-info {
+    display: flex;
+  }
+  
+  .conf-info div {
+    width: 40%;
+  }
+  
+.wrapper {
+  width: 100%;  
+  display: flex;
+  column-gap: 20px;
+}
+.photo-block {
+  border: 1px solid white; 
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px; 
+  max-width: 800px; 
+  margin: 0px; 
+}
+
+.photo-title {
+  margin-bottom: 20px;
+}
+
+.photo-gallery {
+  display: flex;
+  justify-content: space-between; 
+}
+
+.photo-gallery img {
+  width: 192px;
+  height: 160px;
+  object-fit: cover;
+}
+
+.post {
+  display: block;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 8px;
+  font-family: Arial, sans-serif;
+  }
+  
+  .name-side {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  }
+  
+  .name-side img {
+    width: 50px; 
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .author-details {
+  display: flex;
+  flex-direction: column;
+  }
+  
+  .author-name {
+  font-weight: bold;
+  }
+  
+  .post-time {
+  color: #555;
+  font-size: 0.8em;
+  }
+.all-friends {
+  justify-content: space-between;
+}
+.find-friends {
+  width: 1140px;
+  border: 0 solid white;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap; 
+}
+
+.find-friends span {
+  background: #ffffff;
+  padding: 5px 10px;
+  border-radius: 4px;
+  margin: 5px; 
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+}
+
+.request {
+  color: #527da3; 
+  margin-bottom: 4px; 
+}
+.active{
+  background-color: hsl(240deg 81.93% 87.78%) ;
+}
+.post-photo {
+  width: -webkit-fill-available 
+}
+
+.post-photo img{
+  display: block;
+  max-width: 100%; 
+  height: auto; 
+  margin-top: 20px;
+}
+.friend-bar {
+  border: 0 solid white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.friend-bar span {
+  padding:  0 20px;
+}
+
+.friends-block-list {
+  background-color: white;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.friends-block .header h2 {
+  font-size: 1em;
+  color: #333;
+  margin-bottom: 10px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.friends-block .search input,
+.friends-block .search button {
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.friend-list .friend {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.friend-list .friend img {
+  width: 50px; 
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.friend-list .friend .friend-info strong {
+  display: block;
+  color: #333;
+}
+
+.friend-list .friend .friend-info p {
+  font-size: 0.8em;
+  color: #666;
+}
+
+
+.head-part {
+  display: flex;
+  column-gap: 30px;
+}
+
+.search {
+  display: flex;
+  flex-direction: column;
+
+}
+.search input {
+  border: unset;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+}
+
+.categories-info {
+  background-color: white;
+  padding: 20px 0;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.left-side-of-friends {
+  width: 75%
+}
+
+.right-side-of-friends {
+  width: 25%
+}
+
+
+.possible-friends {
+  background-color: white;
+  border-radius: 10px;
+}
